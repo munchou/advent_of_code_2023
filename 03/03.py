@@ -36,19 +36,23 @@ def get_number_index(line, original_index):
 def get_numbers(line):
     numbers = []
     line = list(line)
-    # print(line)
     num = ""
     index = []
     for count, value in enumerate(line):
+        # print(count, value)
         if value.isdigit():
             # print(f"enum: {count, value}")
             num += value
             index.append(count)
+            # print(num, index)
+            if (count + 1) == len(line):
+                num_index_range = get_number_index(line, index)
+                numbers.append([num, num_index_range])
+                break
             continue
         if num:
             # print(f"Num and index: {num, index}")
             num_index_range = get_number_index(line, index)
-            # print(num, num_index_range)
             numbers.append([num, num_index_range])
             num = ""
             index = []
@@ -79,6 +83,7 @@ for i in range(len(content)):
         if char in special_char:
             # print(f"index: {char} -> {index}")
             for number in numbers_list:
+                # print(index)
                 if index in range(number[1][0], number[1][1] + 1):
                     ok_numbers.append(int(number[0]))
 
@@ -99,7 +104,8 @@ for i in range(len(content)):
 
 # print(f"OK numbers: {ok_numbers}")
 
-print(f"part 1: {sum(ok_numbers)}")
+print(f"part 1: {sum(ok_numbers)}, but it's too low, so...")
+
 
 # PART 2
 
