@@ -1,16 +1,18 @@
 # Advent of Code 2023
 
-DAY 01: OK
+DAY 01: PART 1 OK | PART 2 OK
 
-DAY 02: OK
+DAY 02: PART 1 OK | PART 2 OK
 
-DAY 03: STUCK AT PART 1 (can't figure what numbers my program skips, so the total is too low, works with the sample, though.)
+DAY 03: STUCK AT PART 1 T_T
+Can't figure what numbers my program skips, so the total is too low, works with the sample, though.
+Will try again another time, when I have some free time for that.
 
-DAY 04: OK
+DAY 04: PART 1 OK | PART 2 OK
 
 DAY 05: PART 1 OK
 
-DAY 06: -
+DAY 06: PART 1 OK | PART 2 OK
 
 DAY 07: -
 
@@ -39,4 +41,12 @@ DAY 18: -
 DAY 19: -
 
 DAY 20: -
+
+DAY 21: -
+
+DAY 22: -
+
+DAY 23: -
+
+DAY 24: -
 
