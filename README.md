@@ -8,7 +8,7 @@ DAY 03: STUCK AT PART 1 (can't figure what numbers my program skips, so the tota
 
 DAY 04: OK
 
-DAY 05: -
+DAY 05: PART 1 OK
 
 DAY 06: -
 
